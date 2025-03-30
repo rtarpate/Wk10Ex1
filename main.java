@@ -28,8 +28,8 @@ public class VotingProgram {
             System.out.println("Who do you vote for? 1 for " + can1 + ", 2 for " + can2 + ", 3 for " + can3 + ", 4 for reset votes");
 
             //collect user input
-            choice = scanner.nextInt();
-            scanner.nextLine(); // Consume the newline character
+            choice = myObj.nextInt();
+            myObj.nextLine(); // Consume the newline character
 
             //switch for user input
             switch (choice) {
